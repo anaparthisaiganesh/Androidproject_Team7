@@ -5,7 +5,7 @@
 
 -->Project Information 
 
-•	Name of the Application- Book Store
+•	Name of the Application- Book Hunt
 -->Supported devices:
 Works in Android 7.0(lollipop) and higher.
  
