@@ -21,3 +21,11 @@ Password:123456
 Username:bookstore6396@gmail.com
 Password:@bB12345678
 
+
+Sequnce of appliction.
+Normal user:
+1. Once the application is open, It will navigated to login page. 
+2. If the user is previously registered, user can provide user name and password to login to the app.
+3. Upon successful creditailes, user will be navigated to the selte Gener.
+4. User can select the book required and purchse as required.
+
