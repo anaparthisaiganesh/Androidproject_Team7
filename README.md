@@ -23,9 +23,10 @@ Password:@bB12345678
 
 
 Sequnce of appliction.
-Normal user:
-1. Once the application is open, It will navigated to login page. 
-2. If the user is previously registered, user can provide user name and password to login to the app.
-3. Upon successful creditailes, user will be navigated to the selte Gener.
-4. User can select the book required and purchse as required.
+Store owner: Log in with admin Credentials
+1.Store owner can login to the application with admin crtedentials.
+2.Store owner can post details of the books available in the store by selecting add option.
+3.With add option selected owner has to provide information of the book along with information of store and a mobile number to call to check for availability.
+
+
 
