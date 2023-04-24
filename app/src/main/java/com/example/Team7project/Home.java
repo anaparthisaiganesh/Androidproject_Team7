@@ -174,9 +174,7 @@ public class Home extends AppCompatActivity {
                         i.putExtra("description",filteredbookitem.get(position).getItemDescription());
                         i.putExtra("price",filteredbookitem.get(position).getItemPrice());
                         i.putExtra("date",filteredbookitem.get(position).getItemDate());
-                        i.putExtra("imgUrl",filteredbookitem.get(position).getImageUrl());
-                        i.putExtra("phone",filteredbookitem.get(position).getMobileNumber());
-                        startActivity(i);
+                        
                     }
                 });
 
