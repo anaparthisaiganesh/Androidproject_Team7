@@ -115,6 +115,10 @@ public class GenreSelect extends AppCompatActivity {
             @Override
             public boolean onMenuItemClick(@NonNull MenuItem menuItem) {
                 FirebaseAuth.getInstance().signOut();
+                Intent i=new Intent(getApplicationContext(),Login.class);
+                startActivity(i);
+                finish();
+                return false;
                 
             }
         });
