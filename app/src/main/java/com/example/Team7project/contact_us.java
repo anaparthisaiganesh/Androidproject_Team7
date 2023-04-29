@@ -48,8 +48,7 @@ public class contact_us extends AppCompatActivity {
                     return;
                 }
 
-                FirebaseUser currentFirebaseUser = FirebaseAuth.getInstance().getCurrentUser() ;
-                String uid=currentFirebaseUser.getUid();
+                
 
                 ReadWriteContactDetails itemDetailsObject=new ReadWriteContactDetails(nameStr,emailStr,messageStr);
                 DatabaseReference referenceProfile= FirebaseDatabase.getInstance().getReference("contacts");
