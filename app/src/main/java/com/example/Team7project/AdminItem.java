@@ -12,8 +12,7 @@ public class AdminItem {
         return imageUrl;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+   
     }
 
     public AdminItem(String itemName, String itemDescription, String itemPrice, String itemDate, String imageUrl, String ownerKey,String key) {
