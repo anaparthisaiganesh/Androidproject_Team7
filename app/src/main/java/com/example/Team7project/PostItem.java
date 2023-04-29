@@ -199,6 +199,9 @@ public class PostItem extends AppCompatActivity {
                 try {
                     uploadPic(ItemName,descriptionStr,priceStr,generestr,mobileNumber);
                 }
+                catch (Exception e){
+                    Toast.makeText(getApplicationContext(),"Try Again",Toast.LENGTH_SHORT).show();
+                }
 
             }
         });
