@@ -21,5 +21,9 @@ public class ReadWriteContactDetails {
     public String getEmail() {
         return email;
     }
+    
+    public String getMessage() {
+        return message;
+    }
 
 }
