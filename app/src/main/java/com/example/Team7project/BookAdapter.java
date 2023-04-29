@@ -75,6 +75,8 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.ExampleViewHol
         String priceval="Price: "+currentItem.getItemPrice()+"$";
         holder.mItemPrice.setText(priceval);
         String dateVal="Date: "+currentItem.getItemDate();
+        holder.mItemDate.setText(dateVal);
+        Picasso.with(holder.mItemimage.getContext()).load(currentItem.getImageUrl()).into(holder.mItemimage);
        
     }
 
