@@ -8,8 +8,7 @@ public class ReadWriteItemDetails {
         this.description = description;
         this.price = price;
         this.Image_url=image_url;
-        this.genere=genere;
-        this.mobile = mobile;
+       
 
     }
     public ReadWriteItemDetails(){
