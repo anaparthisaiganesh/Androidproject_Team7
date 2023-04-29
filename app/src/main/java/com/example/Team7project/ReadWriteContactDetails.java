@@ -5,6 +5,7 @@ public class ReadWriteContactDetails {
 
     public ReadWriteContactDetails(String name, String email, String message) {
         this.name = name;
+        
         this.email = email;
         this.message = message;
     }
@@ -21,7 +22,4 @@ public class ReadWriteContactDetails {
         return email;
     }
 
-    public String getMessage() {
-        return message;
-    }
 }
