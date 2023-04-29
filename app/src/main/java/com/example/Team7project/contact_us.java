@@ -47,9 +47,9 @@ public class contact_us extends AppCompatActivity {
                     Toast.makeText(contact_us.this, "Fill All Field's", Toast.LENGTH_SHORT).show();
                     return;
                 }
-
+                FirebaseUser currentFirebaseUser = FirebaseAuth.getInstance().getCurrentUser() ;
+                String uid=currentFirebaseUser.getUid();
                 
-
                 ReadWriteContactDetails itemDetailsObject=new ReadWriteContactDetails(nameStr,emailStr,messageStr);
                 DatabaseReference referenceProfile= FirebaseDatabase.getInstance().getReference("contacts");
 
