@@ -35,13 +35,12 @@ public class BookItem {
 
     public String getItemPrice() {
         return itemPrice;
-    }
-
-    public String getItemDate() {
-        return itemDate;
-    }
+    } 
     public String getMobileNumber(){
         return mobile;
+    }
+     public String getItemDate() {
+        return itemDate;
     }
 
 }
