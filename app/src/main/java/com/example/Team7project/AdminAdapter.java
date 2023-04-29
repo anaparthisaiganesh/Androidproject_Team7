@@ -75,7 +75,8 @@ public class AdminAdapter  extends RecyclerView.Adapter<AdminAdapter.ExampleView
         holder.mItemName.setText(currentItem.getItemName());
         String priceval="Price: "+currentItem.getItemPrice()+"$";
         holder.mItemPrice.setText(priceval);
-        
+        String dateVal="Date: "+currentItem.getItemDate();
+        holder.mItemDate.setText(dateVal);
         Picasso.with(holder.mItemimage.getContext()).load(currentItem.getImageUrl()).into(holder.mItemimage);
        
     }
