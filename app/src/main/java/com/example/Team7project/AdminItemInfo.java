@@ -40,6 +40,7 @@ public class AdminItemInfo extends AppCompatActivity {
         itemName.setText("Item: "+name);
         itemDescription.setText(description);
         itemPrice.setText("price: "+price+"$");
+        Picasso.with(getApplicationContext()).load(imgUrl).into(itemImage);
         
 
         contact_owner.setOnClickListener(new View.OnClickListener() {
