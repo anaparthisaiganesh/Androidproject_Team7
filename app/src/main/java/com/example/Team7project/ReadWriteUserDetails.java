@@ -8,7 +8,6 @@ public class ReadWriteUserDetails {
         this.name = name;
         this.age = age;
         this.mobile = mobile;
-        this.gender = gender;
-        this.storeowner=storeowner;
+    
     }
 }
