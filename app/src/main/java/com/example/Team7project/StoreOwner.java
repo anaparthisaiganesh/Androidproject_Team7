@@ -140,7 +140,14 @@ public class StoreOwner extends AppCompatActivity {
             }
         });
 
-        
+        PostItem.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(@NonNull MenuItem menuItem) {
+                Intent i = new Intent(getApplicationContext(),PostItem.class);
+                startActivity(i);
+                return false;
+            }
+        });
 
         logoutItem.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
             @Override
