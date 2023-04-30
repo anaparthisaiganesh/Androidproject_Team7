@@ -97,18 +97,7 @@ public class signup extends AppCompatActivity {
 
                                     DatabaseReference referenceProfile= FirebaseDatabase.getInstance().getReference("Registered Users");
                                     referenceProfile.child(FirebaseUser.getUid()).setValue(itemDetailsObject).addOnCompleteListener(new OnCompleteListener<Void>() {
-                                        @Override
-                                        public void onComplete(@NonNull Task<Void> task) {
-                                            if(task.isSuccessful()){
-                                                Toast.makeText(getApplicationContext(),"Successful", Toast.LENGTH_SHORT).show();
-                                                FirebaseUser user=mAuth.getCurrentUser();
-                                                Intent i =new Intent(getApplicationContext(),Login.class);
-                                                startActivity(i);
-                                                finish();
-                                            }
-                                            else{
-                                                Toast.makeText(getApplicationContext(),"Failed To Save Data",Toast.LENGTH_SHORT).show();
-                                            }
+                                       
                                         }
                                     });
 
