@@ -40,7 +40,7 @@ public class item_info extends AppCompatActivity {
         itemDescription.setText(description);
         itemPrice.setText("price: "+price+"$");
 
-        Picasso.with(getApplicationContext()).load(imgUrl).into(itemImage);
+        
 
         contact_owner.setOnClickListener(new View.OnClickListener() {
             @Override
