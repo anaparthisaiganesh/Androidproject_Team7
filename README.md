@@ -18,6 +18,15 @@ The primary function of this Application is searching any required book by enter
 Store owners can load the available books and customers can check the books available in the store
 Store owners can load the details of available books.
 
+Activities used in the application:
+
+Registration Page
+Login Activity
+New Item Activity
+Select Genre Activity
+Contact Owner Activity
+
+
 Project URL: https://github.com/anaparthisaiganesh/Androidproject_Team7.git
 
 -->Project Information 
