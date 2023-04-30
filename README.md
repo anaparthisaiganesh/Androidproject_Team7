@@ -4,7 +4,9 @@
 3.Nikhil Deekshit Mudda-S555048
 
 All about the app:
+
 This app helps to find the books that are avalible with the Storeowner. If a user wants to get a book, this application can show the availability of the book in different stores and contact the owner to get the selected book.Customer can also check for the pricing and availability and number of copies available so that one can go for opting the best suit accordingly as needed. Store owner has the feasibility to add the available books in the store.
+
 
 Software used to develop the project:
 The name of this application is Book Hunt
